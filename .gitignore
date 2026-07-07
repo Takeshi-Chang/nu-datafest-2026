@@ -1,0 +1,48 @@
+# ===== CONFIDENTIAL DATA — DO NOT COMMIT =====
+# Raw SVH patient data files (per DataFest confidentiality agreement)
+*.csv
+!requirements.txt
+
+# In case data gets extracted/exported in other formats
+*.xlsx
+*.parquet
+*.json
+!package.json
+
+# Common local data folder names
+/data/
+/raw_data/
+/datasets/
+
+# ===== Jupyter / Python =====
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.python-version
+
+# Jupyter notebook metadata that can bloat diffs
+*.ipynb_checkpoints
+
+# ===== macOS =====
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ===== Editor/IDE =====
+.vscode/
+.idea/
+*.swp
+
+# ===== Env/secrets =====
+.env
+*.pem
+*.key
+
+# ===== Large generated files (keep out unless you want them tracked) =====
+# Uncomment if the map HTML is large and you'd rather host it elsewhere
+# kansas_access_map_FINAL_MAP.html
